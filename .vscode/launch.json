@@ -8,7 +8,7 @@
             "servertype": "openocd",
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "Cargo Build (debug)",
-            "runToEntry": true,
+            "runToMain": true,
             "executable": "./target/thumbv7em-none-eabihf/debug/led-roulette",
             "device": "STM32F303VCT6",
             "configFiles": [
@@ -37,7 +37,7 @@
             "servertype": "openocd",
             "cwd": "${workspaceRoot}",
             "preLaunchTask": "Cargo Build (release)",
-            "runToEntry": true,
+            "runToMain": true,
             "executable": "./target/thumbv7em-none-eabihf/debug/led-roulette",
             "device": "STM32F303VCT6",
             "configFiles": [
