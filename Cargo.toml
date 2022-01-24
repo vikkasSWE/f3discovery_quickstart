@@ -1,0 +1,15 @@
+[package]
+authors = [
+    "Viktor Kasimir <kasimir.viktor@gmail.com>"
+]
+edition = "2018"
+name = "led-roulette"
+version = "0.2.0"
+
+[dependencies]
+aux = { path = "auxiliary" }
+
+[profile.release]
+codegen-units = 1
+debug = true
+lto = true
