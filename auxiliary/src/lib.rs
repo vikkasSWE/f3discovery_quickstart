@@ -1,5 +1,3 @@
-//! Initialization code
-
 #![no_std]
 
 pub use panic_itm; // panic handler
